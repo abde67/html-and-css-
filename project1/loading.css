@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 100vh;
+ margin: .5em;
+}
+.circle{
+   
+   border-radius: 50%;
+    margin: .5em;
+    width: 1.5em; ;height: 1.5em; ;
+
+    background-color: rgb(177, 172, 172);
+  animation: my 1s  alternate infinite;
+
+}
+  @keyframes my {
+  from{
+  background-color: rgb(161, 160, 160);
+    
+  }
+  to{
+    background-color: rgb(188, 185, 185);
+    height: 1.6em;
+    width: 1.6em; ;
+  }
+}

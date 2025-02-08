@@ -1,0 +1,26 @@
+.search{
+    border: 1px solid rgb(84, 84, 84);
+    line-height: 2;
+    border-radius: 3px;
+    width: 30%;
+   
+}
+ 
+
+.container-search{
+width: 80%;
+margin: auto;
+padding: 2em;
+min-width: 300px;
+}
+.search:focus{
+    width: 100%;
+    border-color:#3a71e8;
+    transition: all .3s;
+}
+.search::placeholder{
+    font-weight: 200;
+}
+.search:focus::placeholder{
+    color: transparent;
+}
