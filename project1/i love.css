@@ -1,0 +1,35 @@
+
+.container{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+h1:after{
+    content: "";
+    animation: 6s infinite swap;
+    background-color: rgb(1, 44, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+@keyframes swap{
+ 0%{
+    content: "green";
+ }
+ 25%{
+    content: "cat";
+ }
+ 50%{
+    content: "books";
+ }
+ 75%{
+    content: "art";
+ }
+ 100%{
+    content: "green";
+ }
+}

@@ -1,0 +1,43 @@
+/*.container{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ background-color: gray;
+}
+.struct{
+ height: 200px;
+ width: 90px;
+
+}
+.st{
+ background-color: blue;
+}
+.nd{
+ background-color: white;
+
+}
+.rd{
+ background-color: red;
+}
+*/.container{
+ height: 120px;
+ width: 220px;
+ margin: 2e auto;
+ display: flex;
+}
+.struct{
+    flex-grow: 1;
+}
+
+.st{
+    background-color: blue;
+   }
+   .nd{
+    background-color: white;
+   
+   }
+   .rd{
+    background-color: red;
+   }

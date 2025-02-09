@@ -1,0 +1,31 @@
+.rings, .ring{
+ width: 100vh;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.ring1{
+ width: 200px;
+ height:200px ;
+ background-color: rgb(1, 44, 1);
+}
+.ring2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(2, 73, 2);
+}
+.ring3{
+    width: 100px;
+    height:100px ;
+    background-color: rgb(2, 101, 2);
+}
+.ring4{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(14, 215, 14);
+}
+.ring{
+    border-radius: 50%;
+}

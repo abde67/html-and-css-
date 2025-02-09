@@ -1,0 +1,27 @@
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+  width: 100vh;
+  height: 100vh;
+}
+.square{
+ height:3em ;
+ width: 3em;
+ background-color: aquamarine;
+ margin:2em;
+ animation: rotatey 1.5s infinite;
+ transform:rotate(45deg) ;
+}
+
+@keyframes rotatey{
+  from{
+   transform: rotate(-45deg);
+  }
+  to{
+    transform: rotate(45deg);
+  }
+}
+
+
