@@ -1,0 +1,68 @@
+.container{
+ justify-content: center;
+ align-items: center;
+ background-color: black;
+ height: 1000vh;
+ margin: auto;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+ 
+}
+img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.lulu{
+    background:linear-gradient(115deg, #f5424b,rgb(174, 0, 255),#db0f0f,#dbaf0f,#db0fb6);}
+ 
+
+.lili{
+    background:linear-gradient(115deg, #f5424b,rgb(183, 0, 255),#db0f0f,#dbaf0f,#db0fb6);}
+.lala{
+    background: gray;
+}
+p{
+    color: rgb(202, 198, 198);
+    font-size: small;
+    margin-top: 0;
+    margin-left: 15px;
+}
+.imagdiv{
+  height: 50px;
+  width: 50px;
+  padding: 2px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+  margin: 10px;
+
+}
+.list2:after{
+    content: "live";
+    color: white;
+    font-size: 10px;
+    background-color: red;
+   border:2px solid black ;
+   border-radius: 4px;
+   width: 15px;
+   padding: 1px 3px;
+   position: absolute;
+   top: 50%;
+   margin: auto;
+   left: 0;
+   right: 0;
+
+   
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+
+}
